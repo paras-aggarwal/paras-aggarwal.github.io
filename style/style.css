@@ -1,0 +1,50 @@
+body {
+  background-color: #000;
+  color: #fff;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.navbar-brand {
+  text-transform: uppercase;
+  font-family: 'Markazi Text', serif;
+  font-size: 2rem;
+}
+.modal {
+  color: #000;
+}
+.modal a {
+  text-decoration: none;
+  color: #000;
+}
+.modal a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.profilePic {
+  border-radius: 50%;
+}
+.main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: 3s;
+}
+.main a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.main a:hover {
+  text-decoration: underline;
+}
