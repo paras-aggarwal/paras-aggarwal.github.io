@@ -18,7 +18,18 @@ body {
 .navbar-brand {
   text-transform: uppercase;
   font-family: 'Markazi Text', serif;
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.job-title {
+  font-size: 1.2rem;
+}
+.social-stip a:hover {
+  color: #808080;
+}
+.intro {
+  color: #808080;
 }
 .modal {
   color: #000;
@@ -49,4 +60,14 @@ body {
 }
 .main a:hover {
   text-decoration: underline;
+}
+.material a {
+  font-size: 1.5rem;
+}
+.material {
+  font-size: 1.5rem;
+}
+.modal-trigger:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
