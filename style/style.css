@@ -18,12 +18,15 @@ body {
 .navbar-brand {
   text-transform: uppercase;
   font-family: 'Markazi Text', serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 .job-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+.location {
+  font-size: 0.9rem;
 }
 .social-stip a:hover {
   color: #808080;
